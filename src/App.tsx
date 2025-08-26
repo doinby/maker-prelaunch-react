@@ -1,3 +1,17 @@
+import FeatureSection from './components/FeatureSection';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+
 export default function App() {
-	return <h1 className='text-2xl text-green-500'>Hello World!</h1>;
+	return (
+		<>
+			<Header />
+			<main>
+				<HeroSection />
+				<FeatureSection />
+			</main>
+			<Footer />
+		</>
+	);
 }
