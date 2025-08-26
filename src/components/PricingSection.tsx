@@ -1,6 +1,4 @@
 import PricingCard from './PricingCard';
-import pricing0 from '../assets/icon-free.svg';
-import pricing1 from '../assets/icon-paid.svg';
 
 export default function PricingSection() {
 	const content = [
@@ -16,7 +14,6 @@ export default function PricingSection() {
 				'Limited marketplace exposure',
 				'10% fee per transaction',
 			],
-			image: pricing0,
 		},
 		{
 			title: 'Dive right in',
@@ -30,7 +27,6 @@ export default function PricingSection() {
 				'High marketplace visibility',
 				'5% fee per transaction',
 			],
-			image: pricing1,
 		},
 	];
 

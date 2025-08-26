@@ -4,11 +4,10 @@ interface PricingCard {
 	price: number;
 	plan: string;
 	features: string[];
-	image: string;
 }
 
 export default function PricingCard({ props }: { props: PricingCard }) {
-	const { title, description, price, plan, features, image } = props;
+	const { title, description, price, plan, features } = props;
 	const frequency = plan === 'monthly' ? '/ month' : '/week';
 	const bgColor =
 		price === 0 ? 'bg-base-200 text-white' : 'bg-accent !text-black';
