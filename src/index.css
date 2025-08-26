@@ -12,11 +12,11 @@
 	}
 
 	footer {
-		@apply mx-12 py-24;
+		@apply mx-12 py-32;
 	}
 
 	main {
-		@apply space-y-24;
+		@apply space-y-32;
 	}
 
 	main > section {
