@@ -1,4 +1,4 @@
-import Card from './Card';
+import FeatureCard from './FeatureCard';
 import illustration0 from '../assets/illustration-passions.svg';
 import illustration1 from '../assets/illustration-financial-freedom.svg';
 import illustration2 from '../assets/illustration-lifestyle.svg';
@@ -32,23 +32,23 @@ export default function FeatureSection() {
 	];
 
 	return (
-		<section id='feature' className='flex flex-wrap gap-8'>
-			<Card
+		<section id='feature' className='flex flex-wrap gap-12'>
+			<FeatureCard
 				title={content[0].title}
 				description={content[0].description}
 				image={content[0].image}
 			/>
-			<Card
+			<FeatureCard
 				title={content[1].title}
 				description={content[1].description}
 				image={content[1].image}
 			/>
-			<Card
+			<FeatureCard
 				title={content[2].title}
 				description={content[2].description}
 				image={content[2].image}
 			/>
-			<Card
+			<FeatureCard
 				title={content[3].title}
 				description={content[3].description}
 				image={content[3].image}

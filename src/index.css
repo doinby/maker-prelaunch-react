@@ -1,16 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @import 'tailwindcss';
 
+:root {
+	--check-black: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"><path fill="black" d="m10.319.768 1.363 1.464-7.128 6.634L.319 4.924 1.682 3.46l2.871 2.674z"/></svg>');
+	--check-white: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"><path fill="white" d="m10.319.768 1.363 1.464-7.128 6.634L.319 4.924 1.682 3.46l2.871 2.674z"/></svg>');
+}
+
 @layer base {
-	h1,
-	h2,
-	h3 {
-		@apply font-black;
+	header {
+		@apply mx-12 py-8;
+	}
+
+	footer {
+		@apply mx-12 py-24;
 	}
 
 	main {
-		@apply flex flex-col items-center space-y-16;
+		@apply space-y-24;
 	}
+
+	main > section {
+		@apply mx-12;
+	}
+
+	h1,
+	h2,
+	h3 {
+		@apply font-extrabold;
+	}
+
+	button {
+		@apply cursor-pointer font-bold;
+	}
+
+	/* svg {
+		@apply fill-red-500;
+	} */
 }
 
 @theme {

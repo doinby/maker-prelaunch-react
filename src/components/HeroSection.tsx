@@ -5,18 +5,18 @@ import HeroImageRight from '../assets/illustration-hero-right.svg';
 export default function HeroSection() {
 	return (
 		<section id='hero' className='relative h-[468px] w-full flex'>
-			<article className='w-lg h-full m-auto px-6 flex flex-col gap-6 items-center justify-center text-center bg-base-100 z-1'>
+			<article className='w-xl h-full m-auto px-12 flex flex-col space-y-5 items-center justify-center text-center bg-base-100 z-1'>
 				<h2 className='text-4xl'>
 					Get paid for the work you <span className='text-accent'>love</span> to
 					do.
 				</h2>
-				<p className='text-neutral-400'>
+				<p className='text-base opacity-75'>
 					The 9-5 grind is so last century. We believe in living life on your
 					own terms. Whether you&quot;re looking to escape the rat race or set
 					up a side hustle, we&quot;ve got you covered.
 				</p>
 
-				<img src={scrollIcon} alt='Scroll Down Icon' className='w-6' />
+				<img src={scrollIcon} alt='Scroll Down Icon' className='w-6 mt-10' />
 			</article>
 
 			<img
