@@ -32,10 +32,6 @@
 	button {
 		@apply cursor-pointer font-bold;
 	}
-
-	/* svg {
-		@apply fill-red-500;
-	} */
 }
 
 @theme {
